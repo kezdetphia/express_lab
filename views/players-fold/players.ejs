@@ -7,15 +7,18 @@
 </head>
 <body>
   <ul>
-  <% players.forEach((p)=>{ %>
+    <% players.forEach((p)=>{ %>
       <li>
-        <%= p %>
-
+        <%= p.name %>
+            -
+         <%= p.foot %> 
+            -
+        <%= p.desc %> 
       </li>
+    <% }) %>
+  </ul>
       
-      
-      <% }) %>
-    </ul>
-      
+  
+
 </body>
 </html>
